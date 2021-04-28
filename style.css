@@ -1,0 +1,72 @@
+body {
+    background-color: #6a49b7;
+    font-family: serif;
+}
+.todo-wrapper {
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-weight: 300;
+}
+.todo-wrapper h2 {
+    margin: 0;
+    font-style: italic;
+    color: #666;
+}
+.todo-wrapper ol {
+    margin: 20px;
+}
+.todo-wrapper ol li {
+    margin: 5px 0;
+    padding: 3px;
+    color:green;
+}
+.todo-wrapper .button {
+    margin: 10px 2px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: #0093D5;
+    border: none;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+}
+.todo-wrapper input {
+    padding: 3px 6px;
+}
+.todo-wrapper form {
+    display: inline-block;
+}
+#control-wrapper {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.todo-wrapper #empty-button {
+    background-color: #9B1C20;
+}
+@media only screen and (min-width: 1400px) {
+    .todo-wrapper {
+        width: 50%;
+    }
+
+    .todo-wrapper input {
+        width: 600px;
+    }
+    
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+    .todo-wrapper {
+        width: 75%;
+    }
+
+    .todo-wrapper input {
+        width: 400px;
+    }
+}
